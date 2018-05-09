@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fontIconPicker</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- jQuery -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+     <!-- fontIconPicker JS -->
+    <script type="text/javascript" src="js/jquery.fonticonpicker.min.js"></script>
+
+    <!-- fontIconPickerData JS -->
+    <script type="text/javascript" src="js/fonticonpicker.js"></script>
+
+    <!-- required default theme -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fonticonpicker.grey.min.css" />
+
+    <!-- fontIconPicker core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fonticonpicker.min.css" />
+
+    <!-- fontAwesome core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    
+
+   
+</head>
+<body>
+    <span id="span"></span>
+    <br>
+    <input type="text" name="mytext" id="mytext" />
+    <input type="button" id="button" name="" value="提交">
+<script>
+    $('#button').click(function(){
+        $('#span').addClass($('#mytext').val());
+    });
+</script>
+<script>
+    $(function(){
+        $('#mytext').fontIconPicker({
+            source:    resourceInfoIconDatas,//ICON DATA
+            emptyIcon: true,
+            hasSearch: true,
+            emptyIconValue: 'none',
+        });
+    });
+</script>
+
+</body>
+</html>
