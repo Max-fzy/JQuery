@@ -53,8 +53,7 @@ Finally call the fontIconPicker on a `INPUT[type="text"]` element.
 
 ## Browser Compatibility
 
-jQuery iconPicker has been successfully tested on: Firefox (edge), Safari (edge), Chrome (edge),  Opera (edge).
-No support for the time being IE8+ (edge).
+jQuery iconPicker has been successfully tested on: Firefox (edge), Safari (edge), Chrome (edge),  IE8+ and Opera (edge).
 
 ## Credits
 
