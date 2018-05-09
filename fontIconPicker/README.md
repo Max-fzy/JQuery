@@ -1,7 +1,7 @@
 jQuery fontIconPicker v1.0 is out
 ==============
 
-![fontIconPickers](/demo/image.jpg)
+![fontIconPickers](/fontIconPicker/demo/image.jpg)
 
 ## How it works
  Just include a copy of jQuery, the fontIconPickers script, the fontIconPickers theme and your Font Icons. Now you can trigger it on aINPUT[type="text"]` element.
